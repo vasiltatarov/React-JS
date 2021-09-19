@@ -2,11 +2,9 @@ import Card from './Card';
 
 function List(props) {
     return (
-        <>
-            <hr />
-            <Card {...props[0]} />
-            <Card {...props[1]} />
-        </>
+        <div>
+            {Object.values(props).map(profile => <Card {...profile} />)}
+        </div>
     );
 }
 

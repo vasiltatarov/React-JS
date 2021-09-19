@@ -4,6 +4,7 @@ import List from './components/List';
 const testData = [
   { name: 'Vasil', company: 'Indeavr', image: 'https://i.ytimg.com/vi/Qzvxa89dgno/maxresdefault.jpg' },
   { name: 'Nasko', company: ' Facebook', image: 'https://www.kazanlak.com/common/images/thumbs/medium-20190711-HRNOWVDNACU-1562837133.jpg' },
+  { name: 'Pishat', company: 'Madjirat', image: 'https://www.kazanlak.com/common/images/thumbs/medium-20190711-HRNOWVDNACU-1562837133.jpg' },
 ];
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
           <h1>The GitHub Cards App</h1>
         </header>
       </div>
+      <hr />
       <List {...testData} />
     </div>
   );
